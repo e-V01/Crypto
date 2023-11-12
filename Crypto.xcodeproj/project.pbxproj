@@ -17,6 +17,7 @@
 		9EFE01802B0100BB00B450ED /* CoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFE017F2B0100BB00B450ED /* CoinsView.swift */; };
 		9EFE01822B0100C900B450ED /* CoinCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFE01812B0100C900B450ED /* CoinCellView.swift */; };
 		9EFE01842B0112A100B450ED /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFE01832B0112A100B450ED /* HomeViewModel.swift */; };
+		9EFE01862B01176000B450ED /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFE01852B01176000B450ED /* Coin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		9EFE017F2B0100BB00B450ED /* CoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsView.swift; sourceTree = "<group>"; };
 		9EFE01812B0100C900B450ED /* CoinCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCellView.swift; sourceTree = "<group>"; };
 		9EFE01832B0112A100B450ED /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		9EFE01852B01176000B450ED /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		9EFE01722B00F7E400B450ED /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9EFE01852B01176000B450ED /* Coin.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EFE01862B01176000B450ED /* Coin.swift in Sources */,
 				9EFE017C2B00F9A400B450ED /* TopMoversView.swift in Sources */,
 				9EFE01792B00F89800B450ED /* HomeView.swift in Sources */,
 				9EFE01652B00F75A00B450ED /* ContentView.swift in Sources */,

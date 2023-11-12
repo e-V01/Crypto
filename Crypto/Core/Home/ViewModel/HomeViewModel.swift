@@ -31,9 +31,14 @@ class HomeViewModel: ObservableObject {
             }
             
             guard let data = data else { return }
-            let dataAsString = String(data: data, encoding: .utf8)
-            print("DEBUG: Data \(dataAsString)")
-            //
+            do {
+                let coins = try JSONDecoder().decode([Coin].self, from: data)
+                print("DEBUG: Coins \(coins)")
+            } catch let error {
+                print("DEBUG: Failed to decode with error \(error)")
+
+            }
+            
         }
         .resume() // resumes the task if that it was suspended
     }
