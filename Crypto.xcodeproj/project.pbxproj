@@ -14,6 +14,8 @@
 		9EFE01792B00F89800B450ED /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFE01782B00F89800B450ED /* HomeView.swift */; };
 		9EFE017C2B00F9A400B450ED /* TopMoversView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFE017B2B00F9A400B450ED /* TopMoversView.swift */; };
 		9EFE017E2B00F9B700B450ED /* TopMoversItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFE017D2B00F9B700B450ED /* TopMoversItemView.swift */; };
+		9EFE01802B0100BB00B450ED /* CoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFE017F2B0100BB00B450ED /* CoinsView.swift */; };
+		9EFE01822B0100C900B450ED /* CoinCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFE01812B0100C900B450ED /* CoinCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		9EFE01782B00F89800B450ED /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		9EFE017B2B00F9A400B450ED /* TopMoversView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoversView.swift; sourceTree = "<group>"; };
 		9EFE017D2B00F9B700B450ED /* TopMoversItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoversItemView.swift; sourceTree = "<group>"; };
+		9EFE017F2B0100BB00B450ED /* CoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsView.swift; sourceTree = "<group>"; };
+		9EFE01812B0100C900B450ED /* CoinCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,8 @@
 				9EFE01782B00F89800B450ED /* HomeView.swift */,
 				9EFE017B2B00F9A400B450ED /* TopMoversView.swift */,
 				9EFE017D2B00F9B700B450ED /* TopMoversItemView.swift */,
+				9EFE017F2B0100BB00B450ED /* CoinsView.swift */,
+				9EFE01812B0100C900B450ED /* CoinCellView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -214,7 +220,9 @@
 				9EFE01792B00F89800B450ED /* HomeView.swift in Sources */,
 				9EFE01652B00F75A00B450ED /* ContentView.swift in Sources */,
 				9EFE01632B00F75A00B450ED /* CryptoApp.swift in Sources */,
+				9EFE01822B0100C900B450ED /* CoinCellView.swift in Sources */,
 				9EFE017E2B00F9B700B450ED /* TopMoversItemView.swift in Sources */,
+				9EFE01802B0100BB00B450ED /* CoinsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
