@@ -42,16 +42,17 @@ struct CoinCellView: View {
             
             // coin price info
             VStack(alignment: .trailing, spacing: 4) {
-                Text("\(coin.currentPrice)")
+                Text(coin.currentPrice.toCurrency())
                     .font(.subheadline)
                     .fontWeight(.semibold)
                     .padding(.leading, 4)
                 
 //                if let priceChangePercentage24H =  {
-                    Text("\(coin.priceChangePercentage24H)")
+                Text(coin.priceChangePercentage24H.toPercent())
                         .font(.caption)
                         .padding(.leading, 6)
-                        .foregroundStyle(.red)
+                        .foregroundStyle(coin.priceChangePercentage24H > 0 ? .green : .red)
+
 //                } else {
 //                    Text("N/A")
 //                        .font(.caption)

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9E5FA9A92B03B0A8006EF8A1 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9E5FA9A82B03B0A8006EF8A1 /* Kingfisher */; };
+		9E5FA9AB2B03B539006EF8A1 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5FA9AA2B03B539006EF8A1 /* Double.swift */; };
 		9EFE01632B00F75A00B450ED /* CryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFE01622B00F75A00B450ED /* CryptoApp.swift */; };
 		9EFE01652B00F75A00B450ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFE01642B00F75A00B450ED /* ContentView.swift */; };
 		9EFE01672B00F75B00B450ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EFE01662B00F75B00B450ED /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E5FA9AA2B03B539006EF8A1 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		9EFE015F2B00F75A00B450ED /* Crypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EFE01622B00F75A00B450ED /* CryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoApp.swift; sourceTree = "<group>"; };
 		9EFE01642B00F75A00B450ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 		9EFE01732B00F7E500B450ED /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				9E5FA9AA2B03B539006EF8A1 /* Double.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 				9EFE01632B00F75A00B450ED /* CryptoApp.swift in Sources */,
 				9EFE01822B0100C900B450ED /* CoinCellView.swift in Sources */,
 				9EFE017E2B00F9B700B450ED /* TopMoversItemView.swift in Sources */,
+				9E5FA9AB2B03B539006EF8A1 /* Double.swift in Sources */,
 				9EFE01802B0100BB00B450ED /* CoinsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
