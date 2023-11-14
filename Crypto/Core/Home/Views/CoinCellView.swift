@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct CoinCellView: View {
+    let coin: Coin
+    
     var body: some View {
         HStack {
             // market cap rank
-            Text("1")
+            Text("\(coin.marketCapRank ?? 1)")
                 .font(.caption2)
                 .foregroundStyle(.gray)
             
@@ -24,12 +26,12 @@ struct CoinCellView: View {
             
             // coin name info
             VStack(alignment: .leading, spacing: 4) {
-            Text("Bitcoin")
+                Text(coin.name)
                     .font(.subheadline)
                     .fontWeight(.semibold)
                     .padding(.leading, 4)
                 
-                Text("BTC")
+                Text(coin.symbol.uppercased())
                     .font(.caption)
                     .padding(.leading, 6)
             }
@@ -39,15 +41,22 @@ struct CoinCellView: View {
             
             // coin price info
             VStack(alignment: .trailing, spacing: 4) {
-            Text("$20,220.00")
+                Text("\(coin.currentPrice)")
                     .font(.subheadline)
                     .fontWeight(.semibold)
                     .padding(.leading, 4)
                 
-                Text("-5.60%")
-                    .font(.caption)
-                    .padding(.leading, 6)
-                    .foregroundStyle(.red)
+//                if let priceChangePercentage24H =  {
+                    Text("\(coin.priceChangePercentage24H)")
+                        .font(.caption)
+                        .padding(.leading, 6)
+                        .foregroundStyle(.red)
+//                } else {
+//                    Text("N/A")
+//                        .font(.caption)
+//                        .padding(.leading, 6)
+//                        .foregroundStyle(.red)
+//                }
             }
             .padding(.leading, 2)
         }
@@ -56,6 +65,6 @@ struct CoinCellView: View {
     }
 }
 
-#Preview {
-    CoinCellView()
-}
+//#Preview {
+//    CoinCellView()
+//}
